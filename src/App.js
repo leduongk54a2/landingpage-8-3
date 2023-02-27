@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import TimeCountdown from "./Component/TimeCountdown/TimeCountdown";
+import TimeCountdown from "./Component/TimeCountdown";
 
 function App() {
   return (
