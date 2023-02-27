@@ -1,0 +1,23 @@
+.back-ground {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100vw;
+  background-image: url("../../../public/image/background.png");
+  display: flex;
+  align-items: flex-end;
+
+  .time-wrapper {
+    width: 100vw;
+    height: 80%;
+    background-color: #00000099;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    .main-content {
+      height: 100%;
+      width: 60%;
+      border: solid 2px #fff;
+    }
+  }
+}
