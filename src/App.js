@@ -4,6 +4,7 @@ import TimeCountdown from "./Component/TimeCountdown";
 import Schedule from "./Component/Schedule";
 import Prize from "./Component/Prize";
 import GuideLine from "./Component/GuideLine";
+import Ranking from "./Component/Ranking";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Schedule />
         <Prize />
         <GuideLine />
+        <Ranking />
       </header>
     </div>
   );

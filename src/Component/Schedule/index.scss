@@ -4,7 +4,9 @@
   background-image: linear-gradient(to left bottom, #ff9ba0, #fecfef);
 
   .schedule-wrapper {
-    width: 60%;
+    max-width: 60%;
+    width: 100%;
+    min-width: 920px;
     height: calc(100% - 20px);
     border: solid 1px #fff;
     flex-direction: column;
@@ -19,9 +21,10 @@
     justify-content: space-around;
     width: 100%;
     .time-line-content {
-      height: 550px;
       flex-direction: column;
       justify-content: space-between;
+      gap: 20px;
+
       div:nth-child(1),
       .timeline-title {
         font-size: 20px;
@@ -30,7 +33,7 @@
       div:nth-child(2) {
         font-size: 18px;
         font-weight: 600;
-        color: #000;
+        color: #464343;
       }
       .circle {
         z-index: 1;
@@ -50,7 +53,7 @@
     .hight-line {
       position: absolute;
       bottom: 90px;
-      width: 750px;
+      width: 65%;
       height: 8px;
       background: #ff2164;
     }

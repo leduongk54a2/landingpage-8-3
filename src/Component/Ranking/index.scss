@@ -1,0 +1,30 @@
+.ranking-main {
+  width: 100%;
+  height: 80vh;
+  background-image: linear-gradient(to right, #ff9b9f, #feceee);
+  flex-direction: column;
+  .main-description {
+    width: 550px;
+    background: #ff2164;
+
+    span {
+      font-size: 24px;
+      font-weight: 700;
+    }
+  }
+  .ranking-wrapper {
+    display: flex;
+    .image-wrapper {
+      .image {
+        height: 300px;
+        width: 250px;
+      }
+      .image-description {
+        background-image: linear-gradient(to bottom, #fb236480, #fea4c480);
+        .caption {
+          white-space: pre-wrap;
+        }
+      }
+    }
+  }
+}

@@ -12,10 +12,12 @@
     height: 80%;
     background-color: #00000099;
     bottom: 0;
-  
+
     .main-content {
       height: calc(100% - 20px);
-      width: 60%;
+      max-width: 60%;
+      width: 100%;
+      min-width: 920px;
       border: solid 1px #fff;
       display: flex;
       flex-direction: column;
@@ -23,9 +25,9 @@
       align-items: center;
       .main-description {
         width: 60%;
-        background: #FF2164;
-       
-        span{
+        background: #ff2164;
+
+        span {
           font-size: 24px;
           font-weight: 700;
         }
@@ -48,7 +50,7 @@
           height: 90px;
           width: 85px;
           flex-direction: column;
-          background-color: #FF2164;
+          background-color: #ff2164;
           border-radius: 6px;
           font-weight: 700;
         }
@@ -57,16 +59,15 @@
         font-size: 22px;
         font-weight: bold;
       }
-      .btn-open-form{
+      .btn-open-form {
         cursor: pointer;
         font-size: 12px;
         font-weight: bold;
         height: 45px;
         width: 250px;
-        background-color: #FF2164;
+        background-color: #ff2164;
         border: solid 1px #fff;
         border-radius: 50px;
-        
       }
     }
   }
