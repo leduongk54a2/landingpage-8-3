@@ -10,7 +10,7 @@ export default function Prize() {
         <div className="main-description">
           <span>GIẢI THƯỞNG CỦA CHƯƠNG TRÌNH</span>
         </div>
-        <div className="list-prize-wrapper">
+        <div className="list-prize-wrapper animation-element slide-left">
           <div className="prize-item center">
             <HeartLetter></HeartLetter>
             <div className="prize-description">02 Giải Nhì: 1 triệu đồng</div>
@@ -24,7 +24,7 @@ export default function Prize() {
             <div className="prize-description">03 Giải Ba: 500 nghìn đồng</div>
           </div>
         </div>
-        <div className="sub-prize-description">
+        <div className="sub-prize-description animation-element slide-left">
           Ngoài ra còn có <br />
           5 Giải Khuyến khích: 200 nghìn đồng
           <br />

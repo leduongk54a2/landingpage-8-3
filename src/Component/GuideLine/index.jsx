@@ -13,16 +13,19 @@ export default function GuideLine() {
           <div className="guideline-name">
             <span>QUY CÁCH ẢNH DỰ THI</span>
           </div>
-          <div className="main-guideline">
+          <div className="main-guideline animation-element slide-left">
             <span>Ảnh chất lượng cao, chụp rõ mặt, chụp toàn thân</span>
             <span>
               Ảnh chụp bằng máy ảnh, điện thoại di động hoặc các công cụ chụp
               ảnh khác
             </span>
           </div>
-          <div className="guideline-step-wrapper center">
+          <div className="guideline-step-wrapper animation-element slide-left center">
             <div className="guideline-step">
-              <div className="circle"></div>
+              <div className="center hight-line-wrap">
+                <div className="circle"></div>
+                <div className="hight-line"></div>
+              </div>
               <div className="guideline-step-content center">
                 <span>1.</span>
                 <span>
@@ -36,7 +39,10 @@ export default function GuideLine() {
               </div>
             </div>
             <div className="guideline-step">
-              <div className="circle"></div>
+              <div className="center hight-line-wrap">
+                <div className="circle"></div>
+                <div className="hight-line"></div>
+              </div>
               <div className="guideline-step-content center">
                 <span>2.</span>
                 <span>
@@ -48,7 +54,9 @@ export default function GuideLine() {
               </div>
             </div>
             <div className="guideline-step">
-              <div className="circle"></div>
+              <div className="hight-line-wrap">
+                <div className="circle"></div>
+              </div>
               <div className="guideline-step-content center">
                 <span>3.</span>
                 <span>
@@ -57,11 +65,10 @@ export default function GuideLine() {
                 </span>
               </div>
             </div>
-            <div className="hight-line"></div>
           </div>
         </div>
       </div>
-      <div className="photo-demo center">
+      <div className="photo-demo  center">
         <div className="photo-1"></div>
         <div className="photo-2"></div>
       </div>

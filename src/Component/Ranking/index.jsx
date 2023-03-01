@@ -10,7 +10,6 @@ const Ranking = () => {
         "https://raw.githubusercontent.com/leduongk54a2/data-landingpage/main/db.json"
       )
       .then((resp) => {
-        console.log(resp);
         setListRanking(resp.data);
       });
   }, []);
@@ -19,10 +18,14 @@ const Ranking = () => {
       <div className="main-description center">
         <span>CÁC THÍ SINH ĐANG DẪN ĐẦU</span>
       </div>
-      <div className="ranking-wrapper">
+      <div className="ranking-wrapper animation-element slide-left">
         {listRanking?.map((item, index) => (
-          <div className="image-wrapper" key={index}>
-            <img src={item?.src} className="image" />
+          <div className="image-wrapper " key={index}>
+            <div
+              style={{ height: "380px", width: "300px", overflow: "hidden" }}
+            >
+              <img src={item?.src} className="image" />
+            </div>
             <div className="image-description">
               <div className="name">{item?.name}</div>
 

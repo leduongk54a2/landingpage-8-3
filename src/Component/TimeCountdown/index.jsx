@@ -5,8 +5,8 @@ import "./index.scss";
 export default function TimeCountdown() {
   return (
     <div className="back-ground">
-      <div className="time-wrapper center">
-        <div className="main-content">
+      <div className="time-wrapper  center">
+        <div className="main-content ">
           <div className="main-description center">
             <span>THỜI GIAN KẾT THÚC SỰ KIỆN</span>
           </div>
@@ -15,7 +15,7 @@ export default function TimeCountdown() {
           </div>
           <CountDown></CountDown>
           <div className="btn-description">
-            nhanh tay đăng ký để không bỏ lỡ cơ hội này nhé
+            Nhanh tay đăng ký để không bỏ lỡ cơ hội này nhé!!!
           </div>
           <div
             className="btn-open-form center"
