@@ -1,35 +1,45 @@
 .old-ranking-main {
   width: 100%;
   height: 80vh;
-  background-image: linear-gradient(to bottom, #ffbcc8, #ffbfd9);
+  background-image: url(../../../public/image/main-background.png);
+  flex-direction: column;
   .old-ranking-wrapper {
     max-width: 60%;
     width: 100%;
     min-width: 920px;
     height: calc(100% - 20px);
-    border: solid 1px #fff;
     flex-direction: column;
     display: flex;
     justify-content: space-around;
     .main-description {
-      font-size: 24px;
-      font-weight: 700;
+      margin-bottom: 20px;
+      span {
+        font-size: 45px;
+        font-weight: 700;
+        font-family: "Playfair Display";
+        color: rgb(255, 222, 89);
+      }
+      .number {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+      }
     }
     .list-old-ranking-wrapper {
       width: 100%;
       display: flex;
       justify-content: space-evenly;
-      padding-bottom: 40px;
       .old-ranking-item {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        gap: 30px;
+        gap: 20px;
         .old-ranking-description {
           font-size: 20px;
           font-weight: 700;
         }
         .caption {
+          transform: translateY(-80px);
+
           font-size: 15px;
           white-space: pre-wrap;
           overflow: hidden;
@@ -40,6 +50,7 @@
           width: 213px;
         }
         .name {
+          transform: translateY(-80px);
           font-size: 15px;
           font-weight: 700;
         }

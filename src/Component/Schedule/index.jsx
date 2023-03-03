@@ -13,7 +13,9 @@ export default function Schedule() {
           <div className="time-line-content center">
             <div>Thời gian gửi ảnh dự thi</div>
             <div>28/02/2023 – 02/03/2023</div>
+
             <Heart></Heart>
+
             <div className="line-wrapper">
               <p className="circle"></p>
               <div className="hight-line line-1"></div>

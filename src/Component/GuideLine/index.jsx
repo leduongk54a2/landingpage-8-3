@@ -1,4 +1,5 @@
 import React from "react";
+import Heart from "../../image/heart";
 import OnlyHeart from "../../image/only-heart";
 import "./index.scss";
 
@@ -6,12 +7,11 @@ export default function GuideLine() {
   return (
     <div className="guideline-main center">
       <div className="guideline-layout center">
-        <div className="guideline-wrapper">
-          <div className="icon-guideline">
-            <OnlyHeart />
-          </div>
-          <div className="guideline-name">
-            <span>QUY CÁCH ẢNH DỰ THI</span>
+        <div className="guideline-wrapper ">
+          <div className="icon-guideline"></div>
+          <div className="guideline-name center">
+            <Heart />
+            <span>CÁC TIÊU CHÍ CHỌN ẢNH</span>
           </div>
           <div className="main-guideline animation-element slide-left">
             <span>Ảnh chất lượng cao, chụp rõ mặt, chụp toàn thân</span>
@@ -68,7 +68,7 @@ export default function GuideLine() {
           </div>
         </div>
       </div>
-      <div className="photo-demo  center">
+      <div className="photo-demo  center animation-element slide-left">
         <div className="photo-1"></div>
         <div className="photo-2"></div>
       </div>

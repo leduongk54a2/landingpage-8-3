@@ -26,7 +26,7 @@ const Ranking = () => {
             >
               <img src={item?.src} className="image" />
             </div>
-            <div className="image-description">
+            <div className="image-description center">
               <div className="name">{item?.name}</div>
 
               <div className="caption">{item?.title}</div>

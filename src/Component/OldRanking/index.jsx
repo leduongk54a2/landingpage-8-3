@@ -9,7 +9,10 @@ export default function OldRanking() {
     <div className="old-ranking-main center">
       <div className="old-ranking-wrapper center">
         <div className="main-description">
-          <span>TOP 3 MÙA 2021</span>
+          <span>
+            TOP <span className="number">3</span> MÙA{" "}
+            <span className="number">2021</span>
+          </span>
         </div>
         <div className="list-old-ranking-wrapper animation-element slide-left">
           <div className="old-ranking-item center">

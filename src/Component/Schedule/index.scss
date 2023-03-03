@@ -1,19 +1,23 @@
 .schedule-main {
   width: 100%;
   height: 80vh;
-  background-image: linear-gradient(to left bottom, #ff9ba0, #fecfef);
+  background-image: url(../../../public/image/main-background.png);
+  background-position: center;
 
   .schedule-wrapper {
     max-width: 60%;
     width: 100%;
     min-width: 920px;
     height: calc(100% - 20px);
-    border: solid 1px #fff;
     flex-direction: column;
     justify-content: space-around;
     .main-description {
-      font-size: 24px;
-      font-weight: 700;
+      span {
+        font-size: 45px;
+        font-weight: 700;
+        font-family: "Playfair Display";
+        color: rgb(255, 222, 89);
+      }
     }
   }
   .time-line-wrapper {
@@ -28,12 +32,14 @@
       div:nth-child(1),
       .timeline-title {
         font-size: 20px;
+        font-family: "Playfair Display";
         font-weight: 700;
+        color: rgb(255, 222, 89);
       }
       div:nth-child(2) {
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 600;
-        color: #464343;
+        color: #fff;
       }
       .line-wrapper {
         width: 100%;
@@ -48,18 +54,18 @@
           color: #fff;
           font-size: 1.1em;
           font-weight: 600;
-          background-color: #ff2164;
+          background-color: #fff;
           border: 5px solid #fff;
           margin: 0;
           position: relative;
         }
         .hight-line {
           width: 100%;
-          height: 10px;
-          transform: translateY(-33px) translateX(-50%);
-          background: #ff2164;
+          height: 3px;
+          transform: translateY(-30px) translateX(-50%);
+          background: #fff;
           &.line-1 {
-            transform: translateY(-33px) translateX(50%);
+            transform: translateY(-30px) translateX(50%);
           }
         }
       }

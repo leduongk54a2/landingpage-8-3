@@ -1,18 +1,22 @@
 .prize-main {
   width: 100%;
   height: 80vh;
-  background-image: linear-gradient(to right, #ff9b9f, #feceee);
+  background-image: url(../../../public/image/main-background.png);
+  background-position: center;
   .prize-wrapper {
     max-width: 60%;
     width: 100%;
     min-width: 920px;
     height: calc(100% - 20px);
-    border: solid 1px #fff;
     flex-direction: column;
     justify-content: space-around;
     .main-description {
-      font-size: 24px;
-      font-weight: 700;
+      span {
+        font-size: 45px;
+        font-weight: 700;
+        font-family: "Playfair Display";
+        color: rgb(255, 222, 89);
+      }
     }
     .list-prize-wrapper {
       width: 100%;
@@ -23,17 +27,18 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        gap: 15px;
         &:nth-child(2) {
           justify-content: flex-start;
         }
         .prize-description {
-          font-size: 20px;
+          font-size: 22px;
           font-weight: 700;
         }
       }
     }
     .sub-prize-description {
-      font-size: 20px;
+      font-size: 22px;
       font-weight: 700;
     }
   }

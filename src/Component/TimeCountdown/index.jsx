@@ -6,9 +6,9 @@ export default function TimeCountdown() {
   return (
     <div className="back-ground">
       <div className="time-wrapper  center">
-        <div className="main-content ">
-          <div className="main-description center">
-            <span>THỜI GIAN KẾT THÚC SỰ KIỆN</span>
+        <div className="main-content animation-element slide-left">
+          <div className="main-description center ">
+            <span>THỜI GIAN ĐĂNG KÝ THAM GIA</span>
           </div>
           <div className="sub-description">
             <span>ban tổ chức sẽ liên tục cập nhật đơn đăng ký</span>
