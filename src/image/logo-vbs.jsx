@@ -6,7 +6,7 @@ export default class LogoVbs extends Component {
       <img
         // height={160}
         // width={160}
-        src={window.location.origin + "/image/vbs.png"}
+        src={window.location.origin + "/image/logo-vbs.png"}
       ></img>
     );
   }

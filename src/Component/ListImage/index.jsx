@@ -29,7 +29,7 @@ export default function ListImage() {
               }
               alt={item}
               onClick={() => {
-                window.open("https://forms.gle/Nx5Bm7n6zfYanS5M9", "_blank");
+                window.open("https://forms.gle/8zGBD1QyrkJt9ynp7", "_blank");
               }}
             />
           </div>

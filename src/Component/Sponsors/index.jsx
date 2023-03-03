@@ -8,8 +8,10 @@ export default function Sponsor() {
     <div className="sponsor-container center">
       <div className="description">Sponsors</div>
       <div className="animation-element slide-left">
-        <Logo />
-        <LogoVbs />
+        <div className="center">
+          <Logo />
+          <LogoVbs />
+        </div>
       </div>
     </div>
   );
