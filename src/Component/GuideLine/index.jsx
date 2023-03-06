@@ -70,7 +70,6 @@ export default function GuideLine() {
       </div>
       <div className="photo-demo  center animation-element slide-left">
         <div className="photo-1"></div>
-        <div className="photo-2"></div>
       </div>
     </div>
   );

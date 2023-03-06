@@ -13,24 +13,24 @@ export default function Prize() {
         <div className="list-prize-wrapper animation-element slide-left">
           <div className="prize-item center">
             <HeartLetter></HeartLetter>
-            <div className="prize-description">02 Giải Nhì: 1 triệu đồng</div>
+            <div className="prize-description">02 Giải Nhì</div>
           </div>
           <div className="prize-item center">
             <HeartLetter></HeartLetter>
-            <div className="prize-description">01 Giải Nhất: 2 triệu đồng</div>
+            <div className="prize-description">01 Giải Nhất</div>
           </div>
           <div className="prize-item center">
             <HeartLetter></HeartLetter>
-            <div className="prize-description">03 Giải Ba: 500 nghìn đồng</div>
+            <div className="prize-description">03 Giải Ba</div>
           </div>
         </div>
         <div className="sub-prize-description animation-element slide-left">
-          Ngoài ra còn có <br />
-          5 Giải Khuyến khích: 200 nghìn đồng
-          <br />
-          01 Giải Bức ảnh ấn tượng: 200 nghìn đồng
-          <br />
-          01 Giải Bức ảnh có lời bình hay nhất: 200 nghìn đồng.
+          Ngoài ra còn có :<br />
+          <div className="prize-description">05 Giải Khuyến khích</div>
+          <div className="prize-description">01 Giải Bức ảnh ấn tượng</div>
+          <div className="prize-description">
+            01 Giải Bức ảnh có lời bình hay nhất
+          </div>
         </div>
       </div>
     </div>

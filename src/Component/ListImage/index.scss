@@ -4,6 +4,7 @@
   background-image: url(../../../public/image/main-background.png);
   flex-direction: column;
   .description {
+    transform: translateY(15px);
     span {
       font-size: 45px;
       font-weight: 700;
@@ -14,18 +15,33 @@
   .list-image {
     margin: 30px auto;
     display: grid;
-    grid-template-rows: 200px 200px;
-    grid-template-columns: 300px 300px 300px;
-    grid-gap: 30px;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 20px;
     .item {
-      height: 200px;
-      width: 300px;
+      height: 300px;
+      width: 200px;
       cursor: pointer;
       overflow: hidden;
       img {
-        height: 225px;
-        width: 300px;
+        height: 300px;
+        width: 200px;
         object-fit: cover;
+      }
+    }
+  }
+  @media screen and (max-width: 1400px) {
+    .list-image {
+      grid-template-rows: 250px 250px;
+      grid-template-columns: 167px 167px 167px;
+
+      .item {
+        height: 250px;
+        width: 167px;
+        img {
+          height: 250px;
+          width: 167px;
+        }
       }
     }
   }

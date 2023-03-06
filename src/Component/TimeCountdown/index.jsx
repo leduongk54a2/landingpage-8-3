@@ -23,7 +23,7 @@ export default function TimeCountdown() {
               window.open("https://forms.gle/8zGBD1QyrkJt9ynp7", "_blank");
             }}
           >
-            <span>CALL TO ACTION</span>
+            <span>ĐĂNG KÝ</span>
           </div>
         </div>
       </div>
