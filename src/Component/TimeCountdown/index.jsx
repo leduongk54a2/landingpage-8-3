@@ -8,22 +8,22 @@ export default function TimeCountdown() {
       <div className="time-wrapper  center">
         <div className="main-content animation-element slide-left">
           <div className="main-description center ">
-            <span>THỜI GIAN ĐĂNG KÝ THAM GIA</span>
+            <span>THỜI GIAN BÌNH CHỌN</span>
           </div>
           <div className="sub-description">
-            <span>ban tổ chức sẽ liên tục cập nhật đơn đăng ký</span>
+            <span>ban tổ chức sẽ liên tục cập nhật điểm số</span>
           </div>
           <CountDown></CountDown>
           <div className="btn-description">
-            Nhanh tay đăng ký để không bỏ lỡ cơ hội này nhé!!!
+            Hãy bình chọn cho bức ảnh mà bạn yêu thích nhất !!!
           </div>
           <div
             className="btn-open-form center"
             onClick={() => {
-              window.open("https://forms.gle/8zGBD1QyrkJt9ynp7", "_blank");
+              window.open("https://forms.gle/goXhWLbdt1McEMK68", "_blank");
             }}
           >
-            <span>ĐĂNG KÝ</span>
+            <span>BÌNH CHỌN</span>
           </div>
         </div>
       </div>

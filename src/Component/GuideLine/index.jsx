@@ -11,14 +11,11 @@ export default function GuideLine() {
           <div className="icon-guideline"></div>
           <div className="guideline-name center">
             <Heart />
-            <span>CÁC TIÊU CHÍ CHỌN ẢNH</span>
+            <span>CÁCH THỨC TÍNH ĐIỂM</span>
           </div>
           <div className="main-guideline animation-element slide-left">
-            <span>Ảnh chất lượng cao, chụp rõ mặt, chụp toàn thân</span>
-            <span>
-              Ảnh chụp bằng máy ảnh, điện thoại di động hoặc các công cụ chụp
-              ảnh khác
-            </span>
+            <span>BTC sẽ tiến hành bính chọn trực tuyến tác phẩm được yếu thích nhất trên Facebook VTI life từ ngày 06/03 - 12h00 ngày 09/03. Đồng thời triển khai vote nội bộ trong VTI Group</span>
+           
           </div>
           <div className="guideline-step-wrapper animation-element slide-left center">
             <div className="guideline-step">
@@ -27,14 +24,10 @@ export default function GuideLine() {
                 <div className="hight-line"></div>
               </div>
               <div className="guideline-step-content center">
-                <span>1.</span>
                 <span>
-                  Mỗi một bức ảnh gửi kèm theo phần Mô tả ảnh/ Lời bình cho tác
-                  phẩm không quá 200 ký tự.
+                  Trọng số tính điểm:
                   <br />
-                  Mỗi tác giả chỉ được gửi 01 sản phẩm dự thi. BTC sẽ nhận 01
-                  bài dự thi đầu tiên của tác giả, các tác phẩm gửi quá số lượng
-                  sẽ không được chấp nhận
+                  Căn cứ lượt react trên ảnh và lượt vote nội bộ
                 </span>
               </div>
             </div>
@@ -44,12 +37,8 @@ export default function GuideLine() {
                 <div className="hight-line"></div>
               </div>
               <div className="guideline-step-content center">
-                <span>2.</span>
                 <span>
-                  Tác giả chịu trách nhiệm về tính pháp lý và chi phí bản quyền
-                  hình ảnh, bản quyền tư liệu sử dụng trong tác phẩm dự thi,
-                  tính xác thực các thông tin được thể hiện trong tác phẩm và
-                  thông tin gửi cho Ban Tổ chức
+                 Tổng điểm dự thi = tổng điểm thứ hạng trên facebook + 1,5 x tổng điểm thứ hạng bình chọn nội bộ
                 </span>
               </div>
             </div>
@@ -58,10 +47,8 @@ export default function GuideLine() {
                 <div className="circle"></div>
               </div>
               <div className="guideline-step-content center">
-                <span>3.</span>
                 <span>
-                  Tác phẩm dự thi phải đảm bảo không vi phạm thuần phong mỹ tục,
-                  tôn giáo, không vi phạm pháp luật Việt Nam
+                  Trong trường hợp có tranh chấp, khiếu nại, gian lận,... BTC sẽ lập ban điểm tra và thảo luận, quyết định của BTC sẽ là quyết định cuối cùng
                 </span>
               </div>
             </div>

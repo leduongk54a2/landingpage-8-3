@@ -24,7 +24,7 @@ export default function Schedule() {
           </div>
           <div className="time-line-content center">
             <div>Thời gian bình chọn</div>
-            <div>07/03/2023 – 09/03/2023</div>
+            <div>07/03/2023 – 10/03/2023</div>
             <Heart></Heart>
             <div className="line-wrapper">
               <p className="circle"></p>

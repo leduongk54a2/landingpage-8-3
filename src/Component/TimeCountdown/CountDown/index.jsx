@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 const CountDown = () => {
   const getTime = () => {
     var start = moment(new Date());
-    var end = moment("20230307", "YYYYMMDD");
+    var end = moment("2023031010", "YYYYMMDDhh");
     return moment.duration(end?.diff(start))?._data;
   };
 

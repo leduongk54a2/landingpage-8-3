@@ -23,10 +23,13 @@ export default function Prize() {
             <HeartLetter></HeartLetter>
             <div className="prize-description">03 Giải Ba</div>
           </div>
+          <div className="prize-item center">
+            <HeartLetter></HeartLetter>
+            <div className="prize-description">05 Giải Khuyến khích</div>
+          </div>
         </div>
         <div className="sub-prize-description animation-element slide-left">
-          Ngoài ra còn có :<br />
-          <div className="prize-description">05 Giải Khuyến khích</div>
+          Các giải phụ:<br />
           <div className="prize-description">01 Giải Bức ảnh ấn tượng</div>
           <div className="prize-description">
             01 Giải Bức ảnh có lời bình hay nhất

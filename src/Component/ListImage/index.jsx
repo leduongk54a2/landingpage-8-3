@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import "./index.scss";
 
 export default function ListImage() {
-  const listImage = [1, 2, 3, 4, 5, 6];
+  const listImage = [1, 2, 3, 4, 5, 6,7,8];
   // const [listImage, setListImage] = useState([]);
 
   // useEffect(() => {
@@ -29,12 +29,15 @@ export default function ListImage() {
               }
               alt={item}
               onClick={() => {
-                window.open("https://forms.gle/8zGBD1QyrkJt9ynp7", "_blank");
+                window.open("https://forms.gle/goXhWLbdt1McEMK68", "_blank");
               }}
             />
           </div>
         ))}
       </div>
+      <div className="btn-direct center" onClick={() => {
+                window.open("https://forms.gle/goXhWLbdt1McEMK68", "_blank");
+              }}>XEM THÊM ẢNH</div>
     </div>
   );
 }
