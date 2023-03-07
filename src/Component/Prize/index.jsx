@@ -6,7 +6,7 @@ import "./index.scss";
 export default function Prize() {
   return (
     <div className="prize-main center">
-      <div className="prize-wrapper center">
+      {/* <div className="prize-wrapper center">
         <div className="main-description">
           <span>GIẢI THƯỞNG CỦA CHƯƠNG TRÌNH</span>
         </div>
@@ -35,6 +35,14 @@ export default function Prize() {
             01 Giải Bức ảnh có lời bình hay nhất
           </div>
         </div>
+      </div> */}
+      <div
+        className="btn-direct center"
+        onClick={() => {
+          // window.open("https://forms.gle/goXhWLbdt1McEMK68", "_blank");
+        }}
+      >
+        ĐĂNG KÝ
       </div>
     </div>
   );

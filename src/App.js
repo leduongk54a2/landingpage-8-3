@@ -57,16 +57,19 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="banner" >
-          <img  draggable="false" src={window.location.origin + "/image/Banner.jpg"}></img>
+        <div className="banner">
+          <img
+            draggable="false"
+            src={window.location.origin + "/image/Banner.jpg"}
+          ></img>
         </div>
-        <Schedule />
-        <Prize />
-        <GuideLine />
-        <Ranking />
-        {/* <OldRanking /> */}
-        <ListImage />
         <TimeCountdown />
+        <Ranking />
+        {/* <Schedule /> */}
+        <ListImage />
+        {/* <GuideLine /> */}
+        <Prize />
+        <OldRanking />
         <Sponsor />
       </header>
     </div>

@@ -29,8 +29,6 @@
         object-fit: cover;
       }
     }
-
-  
   }
 
   .btn-direct {
@@ -44,17 +42,23 @@
     border: solid 1px #fff;
     border-radius: 50px;
   }
-  @media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1400px) {
+  .list-image-main {
+    height: 90vh !important;
+    .btn-direct {
+      transform: translateY(-12px);
+    }
     .list-image {
-      grid-template-rows: 250px 250px;
-      grid-template-columns: 167px 167px 167px;
+      grid-template-rows: 200px 200px;
+      grid-template-columns: 150px 150px 150px 150px;
 
       .item {
-        height: 250px;
-        width: 167px;
+        height: 200px;
+        width: 150px;
         img {
-          height: 250px;
-          width: 167px;
+          height: 200px;
+          width: 150px;
         }
       }
     }
