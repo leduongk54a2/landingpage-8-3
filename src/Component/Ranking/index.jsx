@@ -1,4 +1,5 @@
 import axios from "axios";
+import moment from "moment";
 import React, { useEffect, useState } from "react";
 import "./index.scss";
 const Ranking = () => {
@@ -33,6 +34,16 @@ const Ranking = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div
+        className="center clock"
+        style={{ marginTop: "20px", fontSize: "16px" }}
+      >
+        {` Kết quả cập nhật lúc 15:00:00 ${
+          moment().hour() < 15
+            ? moment().subtract(1, "day").format("DD/MM/YYYY")
+            : moment().format("DD/MM/YYYY")
+        }`}
       </div>
     </div>
   );

@@ -61,3 +61,15 @@
     }
   }
 }
+@media screen and (max-width: 1441px) {
+  .main-description {
+    transform: translateY(20px);
+  }
+  .ranking-main .ranking-wrapper .image-wrapper {
+    height: 90%;
+    transform: translateY(50px);
+  }
+  .clock {
+    transform: translateY(-45px);
+  }
+}
