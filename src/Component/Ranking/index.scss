@@ -36,13 +36,16 @@
           rgba(33, 137, 255, 0.415) 34%,
           rgba(33, 255, 255, 0.065) 100%
         );
-        width: 250px;
         height: 165px;
-        transform: translateY(-70px);
+        -webkit-transform: translateY(-70px);
+        transform: translateY(-53px);
+        width: 250px;
+        display: block;
         .name {
-          padding: 0 10px;
+          margin-top: 33px;
           font-size: 16px;
           font-weight: 700;
+          padding: 0 10px;
         }
         .caption {
           font-size: 14px;

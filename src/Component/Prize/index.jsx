@@ -42,7 +42,7 @@ export default function Prize() {
           // window.open("https://forms.gle/goXhWLbdt1McEMK68", "_blank");
         }}
       >
-        ĐĂNG KÝ
+        DỰ ĐOÁN
       </div>
     </div>
   );

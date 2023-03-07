@@ -69,7 +69,7 @@ function App() {
         <ListImage />
         {/* <GuideLine /> */}
         <Prize />
-        <OldRanking />
+        {/* <OldRanking /> */}
         <Sponsor />
       </header>
     </div>
