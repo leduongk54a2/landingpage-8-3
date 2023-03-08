@@ -4,14 +4,16 @@ import React, { useEffect, useState } from "react";
 import "./index.scss";
 const Ranking = () => {
   const [listRanking, setListRanking] = useState([]);
+  const [time, setTime] = useState("");
 
   useEffect(() => {
     axios
       .get(
-        "https://raw.githubusercontent.com/leduongk54a2/data-landingpage/main/db.json"
+        "https://raw.githubusercontent.com/leduongk54a2/data-landingpage/main/data-landingpage.json"
       )
       .then((resp) => {
-        setListRanking(resp.data);
+        setListRanking(resp.data.data);
+        setTime(resp.data.time);
       });
   }, []);
   return (
@@ -39,11 +41,7 @@ const Ranking = () => {
         className="center clock"
         style={{ marginTop: "20px", fontSize: "16px" }}
       >
-        {` Kết quả cập nhật lúc 15:00:00 ${
-          moment().hour() < 15
-            ? moment().subtract(1, "day").format("DD/MM/YYYY")
-            : moment().format("DD/MM/YYYY")
-        }`}
+        {` Kết quả cập nhật lúc  ${time}`}
       </div>
     </div>
   );
