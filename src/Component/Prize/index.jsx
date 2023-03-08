@@ -39,7 +39,10 @@ export default function Prize() {
       <div
         className="btn-direct center"
         onClick={() => {
-          // window.open("https://forms.gle/goXhWLbdt1McEMK68", "_blank");
+          window.open(
+            "https://www.facebook.com/vti.com.vn/posts/pfbid034mRSH428xup7jmdfbR9kVAJo16RQkUrN4XYCWUNtp2grUEcJmghBa8GLi8NTNu6jl",
+            "_blank"
+          );
         }}
       >
         DỰ ĐOÁN
