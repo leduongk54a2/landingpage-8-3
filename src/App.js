@@ -63,12 +63,12 @@ function App() {
             src={window.location.origin + "/image/Banner.jpg"}
           ></img>
         </div>
-        <TimeCountdown />
+        {/* <TimeCountdown /> */}
         <Ranking />
         {/* <Schedule /> */}
         <ListImage />
         {/* <GuideLine /> */}
-        <Prize />
+        {/* <Prize /> */}
         {/* <OldRanking /> */}
         <Sponsor />
       </header>

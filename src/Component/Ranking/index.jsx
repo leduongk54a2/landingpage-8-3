@@ -19,13 +19,18 @@ const Ranking = () => {
   return (
     <div className="ranking-main center">
       <div className="main-description center">
-        <span>CÁC THÍ SINH ĐANG DẪN ĐẦU</span>
+        <span>GIẢI NHẤT CUỘC THI</span>
+        <span>MISS PHOTO PANDORA 2023</span>
       </div>
       <div className="ranking-wrapper animation-element slide-left">
         {listRanking?.map((item, index) => (
           <div className="image-wrapper " key={index}>
             <div
-              style={{ height: "380px", width: "300px", overflow: "hidden" }}
+              style={{
+                height: "66%",
+                aspectRatio: "350 / 430",
+                overflow: "hidden",
+              }}
             >
               <img src={item?.src} className="image" />
             </div>
@@ -37,12 +42,12 @@ const Ranking = () => {
           </div>
         ))}
       </div>
-      <div
+      {/* <div
         className="center clock"
         style={{ marginTop: "20px", fontSize: "16px" }}
       >
         {` Kết quả cập nhật lúc  ${time}`}
-      </div>
+      </div> */}
     </div>
   );
 };

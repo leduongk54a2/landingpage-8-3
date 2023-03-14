@@ -1,12 +1,13 @@
 .list-image-main {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   background-image: url(../../../public/image/main-background.png);
   flex-direction: column;
+  justify-content: space-around;
   .description {
     transform: translateY(15px);
     span {
-      font-size: 45px;
+      font-size: 32px;
       font-weight: 700;
       font-family: "Playfair Display";
       color: rgb(255, 222, 89);
@@ -15,16 +16,17 @@
   .list-image {
     margin: 30px auto;
     display: grid;
-    grid-template-rows: 250px 250px;
-    grid-template-columns: 167px 167px 167px 167px;
-    grid-gap: 20px;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 167px 167px 167px 167px 167px 167px 167px;
+    grid-gap: 70px;
     .item {
-      height: 250px;
+      flex-direction: column;
+      height: 300px;
       width: 167px;
       cursor: pointer;
       overflow: hidden;
       img {
-        height: 250px;
+        height: 370px;
         width: 167px;
         object-fit: cover;
       }
@@ -42,22 +44,53 @@
     border: solid 1px #fff;
     border-radius: 50px;
   }
+  .image-description {
+    flex-direction: column;
+    // background: rgb(255, 33, 100);
+    background: linear-gradient(
+      180deg,
+      rgba(33, 74, 255, 0.961) 0%,
+      rgba(33, 137, 255, 0.415) 34%,
+      rgba(33, 255, 255, 0.065) 100%
+    );
+    transform: translateY(-20px);
+    width: 80%;
+    display: block;
+    height: 120px;
+
+    padding: 20px 0;
+
+    .name {
+      font-size: 14px;
+      font-weight: 700;
+      padding: 0 10px;
+    }
+    .caption {
+      font-size: 12px;
+      padding: 0 10px;
+      white-space: pre-wrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 4 !important;
+      -webkit-box-orient: vertical;
+    }
+  }
 }
 @media screen and (max-width: 1441px) {
   .list-image-main {
-    height: 90vh !important;
     .btn-direct {
       transform: translateY(-12px);
     }
     .list-image {
-      grid-template-rows: 200px 200px;
-      grid-template-columns: 150px 150px 150px 150px;
-
+      grid-template-rows: 280px 280px;
+      grid-template-columns: 150px 150px 150px 150px 150px 150px 150px;
+      grid-gap: 20px;
       .item {
-        height: 200px;
+        height: 280px;
         width: 150px;
         img {
-          height: 200px;
+          height: 370px;
           width: 150px;
         }
       }
