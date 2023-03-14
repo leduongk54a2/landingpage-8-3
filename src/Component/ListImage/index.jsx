@@ -9,7 +9,7 @@ export default function ListImage() {
       image:
         "https://scontent.fhan3-2.fna.fbcdn.net/v/t39.30808-6/335037548_749518363360620_5314436063022252934_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=UJBNROnl-Q4AX_GhrBB&_nc_ht=scontent.fhan3-2.fna&oh=00_AfAtq5y8cvrD0oJ7eT4Nt-9c9-qLmji0-nppip8LRhgnMw&oe=641403F7",
       name: "Quỳnh Ngân",
-      title: "Beauty in Tech",
+      title: "Giải Nhì & Beauty in Tech",
     },
     {
       image:
