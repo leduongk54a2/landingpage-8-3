@@ -83,15 +83,15 @@
       transform: translateY(-12px);
     }
     .list-image {
-      grid-template-rows: 280px 280px;
-      grid-template-columns: 150px 150px 150px 150px 150px 150px 150px;
-      grid-gap: 20px;
+      grid-template-rows: 280px 280px !important;
+      grid-template-columns: 150px 150px 150px 150px 150px 150px 150px !important;
+      grid-gap: 40px !important;
       .item {
-        height: 280px;
-        width: 150px;
+        height: 280px !important;
+        width: 150px !important;
         img {
-          height: 370px;
-          width: 150px;
+          height: 370px !important;
+          width: 150px !important;
         }
       }
     }
